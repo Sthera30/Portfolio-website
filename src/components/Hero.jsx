@@ -1,6 +1,5 @@
 import "./CSS/hero.css";
 import Image from "../assets/IMG_20201224_015300_532_edit_26387749665764.jpg";
-import "../../node_modules/fontawesome-free-5.15.2-web/css/all.min.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { useState, useEffect } from "react";
 import Spinner from "./Spinner.jsx";

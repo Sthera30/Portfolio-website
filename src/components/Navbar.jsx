@@ -1,7 +1,7 @@
 import "./CSS/navbar.css";
-import "../../node_modules/fontawesome-free-5.15.2-web/css/all.min.css";
 import { useState } from "react";
 import {NavLink} from 'react-router-dom'
+import {FaBars} from 'react-icons/fa'
 
 function Navbar() {
   const [showNav, setShowNav] = useState(false);
@@ -20,10 +20,10 @@ function Navbar() {
         <NavLink to={"/projects"}>Projects</NavLink>
         <NavLink to={"/contact"}>Contact</NavLink>
       </div>
-      <i
+      <FaBars
         className="fas fa-bars"
         onClick={() => setShowNav((prevNav) => !prevNav)}
-      ></i>
+      ></FaBars>
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import "./CSS/skills.css";
-import "../../node_modules/fontawesome-free-5.15.2-web/css/all.min.css";
 import { useState, useEffect } from "react";
 
 function Skills() {

@@ -1,5 +1,6 @@
 import "./CSS/contact.css";
 import { useState } from "react";
+import {FaPhone, FaEnvelope, FaEnvelopeOpen} from 'react-icons/fa'
 
 function Contact() {
   const [result, setResult] = useState("");
@@ -45,17 +46,17 @@ function Contact() {
       <div className="contact-container sec">
         <div className="contact-info">
           <h3>
-            Send me a message <i className="fas fa-envelope-open"></i>
+            Send me a message <FaEnvelopeOpen style={{color: 'orange'}} className="fas fa-envelope-open"></FaEnvelopeOpen>
           </h3>
           <p>
             Feel free to reach out through contact form or find my contact
             information below.
           </p>
           <p>
-            <i className="fas fa-phone"></i>(+27) 62 419 2299
+            <FaPhone style={{color: 'skyblue'}} className="fas fa-phone"></FaPhone>&nbsp;&nbsp;(+27) 62 419 2299
           </p>
           <p>
-            <i className="fas fa-envelope"></i>tinisthera@gmail.com
+            <FaEnvelope  style={{color: 'orange'}}  className="fas fa-envelope"></FaEnvelope>&nbsp;&nbsp;tinisthera@gmail.com
           </p>
         </div>
         <form onSubmit={async (event) => onSubmit(event)}>
