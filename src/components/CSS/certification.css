@@ -1,0 +1,45 @@
+.certification-heading{
+    text-align: center;
+    margin: 8rem 0rem;
+}
+
+.certification-heading h2{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.certification-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 5% !important;
+    margin-top: -5rem !important;
+}
+
+.certification-left{
+    flex: 1 1 25rem;
+}
+
+.certification-left img{
+    width: 100%;
+    height: 40rem;
+}
+
+.certification-right{
+    flex: 1 1 25rem;
+}
+
+.certification-right img{
+    width: 100%;
+    height: 40rem;
+}
+
+
+.about-burner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(65deg, hsl(197, 97%, 35%), hsl(196, 56%, 86%));
+    height: 45vh;
+    margin-bottom: 6rem;
+  }

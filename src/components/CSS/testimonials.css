@@ -1,0 +1,68 @@
+.player-review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-heading h3{
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: #fff !important;
+    margin: 5rem 0rem;
+    font-weight: 800;
+}
+
+.review-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem 10%;
+    background: hsl(240, 81%, 61%);
+    height: 28rem;
+}
+
+.player-box{
+    flex: 1 1 20rem;
+    height: 28rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    background: hsl(240, 81%, 61%);
+    width: 100%;
+}
+
+
+.player-box p{
+    line-height: 1.4;
+    max-width: 30rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.ratinf-star{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-container img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info-container .user-info{
+    margin-top: -1.2rem;
+}
+
+.info-container .user-info p{
+    margin-bottom: -.6rem;
+}

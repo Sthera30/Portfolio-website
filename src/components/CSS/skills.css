@@ -1,0 +1,53 @@
+.skills-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-title {
+  background: linear-gradient(65deg, lime, skyblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tech-stack span {
+  color: #fff;
+}
+
+.tech-stack img {
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.skills {
+  text-align: center;
+  color: #fff;
+  max-width: 20rem;
+  line-height: 1.8;
+  margin-top: 0rem;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tech-stack {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fa-laptop-code {
+  background: linear-gradient(65deg, purple, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 1.5rem;
+  font-size: 2rem;
+}

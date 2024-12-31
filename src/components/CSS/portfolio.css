@@ -1,0 +1,200 @@
+.subs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 30rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.subs {
+  margin-top: 4rem;
+}
+
+.subs h2 {
+  background: linear-gradient(65deg, lime, skyblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subs p {
+  color: #fff;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.project-container .project-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 60rem;
+
+}
+
+.project-container .project-box {
+  flex: 1 1 25rem;
+  height: 25rem;
+  color: #fff;
+  background: linear-gradient(20deg, #3e56f7, hsl(197, 99%, 59%));
+  padding: 2rem;
+  border-radius: 3rem;
+}
+
+.project-container .project-box .content{
+  margin-top: 4rem;
+
+}
+
+.project-box-right h2{
+  font-weight: 800;
+}
+
+
+.project-box-right h4{
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+
+.project-box-right h5{
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.sec {
+  padding: 2rem 9%;
+}
+
+.project-box-right{
+  color: #fff;
+  flex: 1 1 30rem;
+
+}
+
+/*.content {
+  position: absolute;
+  top: -20rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+*/
+
+.content i {
+  font-size: 2rem;
+}
+
+.project-container .project-box:hover .content {
+  top: 0;
+  cursor: pointer;
+}
+
+.project-container .project-box:nth-child(2) .content p{
+  line-height: 1.4;
+}
+
+
+.projects-burner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(65deg, hsl(197, 76%, 27%), hsl(195, 89%, 61%));
+  height: 20rem;
+  margin-bottom: 6rem;
+}
+
+.burner-inner h3{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.burner-inner h1 {
+
+  text-align: center;
+
+}
+
+.burner-inner 
+
+.projects-burner .burner-inner{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.projects-burner .burner-inner h1{
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.projects-burner-{
+  background: hsl(0, 0%, 15%);
+  padding: 1.5rem;
+}
+
+.burner-inner p{
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.pro-desc{
+  margin-top: 2rem;
+}
+
+.pro-desc span:nth-child(2){
+  margin-left: .6rem;
+  background: hsl(197, 90%, 45%);
+  padding: .6rem 1rem;
+  border-radius: 3rem;
+
+}
+
+.web-desc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  margin: -2rem auto  !important;
+  background: hsl(197, 80%, 48%);
+  width: 50%;
+  height: 30vh;
+  border-radius: 3rem;
+}
+
+.web-desc span{
+  font-size: 1.8rem;
+}
+
+.project-heading{
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.project-heading h2 span{
+  color: #fff;
+  background: hsl(197, 90%, 32%);
+  border-radius: 3rem;
+  padding: .6rem 1.5rem;
+}
+
+.secs{
+  padding: 0rem 2%;
+}

@@ -1,0 +1,34 @@
+.school-container{
+    background: hsl(0, 0%, 15%);
+    padding: 1.5rem;
+}
+
+.school-container h2 {
+
+    text-align: center;
+    margin: 8rem 0rem;
+    font-size: 2.5rem;
+    color: #ffff;
+    margin-top: 13rem;
+}
+
+.school-box {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: -5rem;
+}
+
+.school-box h3 {
+    font-size: 1.8rem;
+}
+
+.school-box p {
+    max-width: 50rem;
+    line-height: 1.9rem;
+    font-size: 1.1rem;
+}

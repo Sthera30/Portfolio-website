@@ -1,0 +1,30 @@
+{
+    "projects": [
+    {
+      "id": "1",
+      "image": "/Screenshot 2024-08-02 at 22.49.06.png",
+      "description": "Ecommerce Shopping Website",
+      "icon": "fas fa-shopping-cart",
+      "website": "https://lambent-pie-cdd698.netlify.app/",
+      "name": "html, css & javascript, react js"
+    },
+    {
+      "id": "2",
+      "image": "/Screenshot 2024-09-04 at 22.05.06.png",
+      "description": "Gym Website",
+      "icon": "fas fa-dumbbell",
+      "website": "https://cool-cobbler-6526ef.netlify.app/",
+      "name": "HTML, CSS & JAVASCRIPT"
+
+    },
+    {
+      "id": "3",
+      "image": "/Screenshot 2024-09-05 at 02.25.54.png",
+      "description": "Ecommerce Coffee Website",
+      "icon": "fas fa-netflix",
+      "website": "https://dapper-dusk-59b848.netlify.app/",
+      "name": "HTML, CSS & JAVASCRIPT"
+
+    }
+  ]
+}

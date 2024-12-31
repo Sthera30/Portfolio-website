@@ -1,0 +1,62 @@
+{
+  "heros": [
+    {
+      "id": "1",
+      "description": "A passionate Front-end React developer based in South Africa. I completed a Diploma in Information Technology(Software Development) at Nelson Mandela University. With 2 years of experience building responsive and scalable web applications. I design creative and eye-catching websites."
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "skillsDescription": "I take pride in my versatile skill set, honed through countless hours of self-learning and hands on experience"
+    }
+  ],
+  "stack": [
+    {
+      "id": "1",
+      "image": "/15474213.png"
+    },
+    {
+      "id": "2",
+      "image": "/663980.png"
+    },
+    {
+      "id": "3",
+      "image": "/javascript-logo-javascript-icon-transparent-free-png.png"
+    },
+    {
+      "id": "4",
+      "image": "/React.js_logo-512.png"
+    }
+  ],
+  "about": [
+    {
+      "id": "1",
+      "image": "/abou.jpg",
+      "title": "Professional Journey",
+      "aboutDescription": "As a Frontend Developer, I possess an impressive arsenal skills in HTML, CSS, JAVASCRIPT, and REACT JS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writting clean and optimized code and utilizing cutting-edge development tools and techniques. My Portfolio"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "image": "/ecommerce.png",
+      "description": "Ecommerce Website",
+      "icon": "fas fa-shopping-cart"
+    },
+    {
+      "id": "2",
+      "image": "/gym.jpg",
+      "description": "Gym Website",
+      "icon": "fas fa-dumbbell"
+    },
+    {
+      "id": "3",
+      "image": "/recycling.jpg",
+      "description": "Recycling Website",
+      "icon": "fas fa-recycle"
+    }
+  ]
+}
+
+

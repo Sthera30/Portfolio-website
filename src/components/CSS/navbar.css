@@ -1,0 +1,46 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 3%;
+  background: hsla(0, 0%, 0%, 0.87);
+  z-index: 1000;
+}
+
+.header .left-bar span {
+  color: hsl(197, 88%, 48%);
+  font-style:initial;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.header .right-bar a {
+  color: #fff;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+
+.header .right-bar a:hover {
+  color: skyblue;
+}
+
+.header i {
+  display: none;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.active{
+  color: #fff;
+  background: hsl(197, 95%, 38%);
+  padding: .6rem 1rem;
+  border-radius: .5rem;
+
+  
+}

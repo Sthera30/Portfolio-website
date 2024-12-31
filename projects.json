@@ -1,0 +1,24 @@
+{
+    "projects": [
+    {
+      "id": "1",
+      "image": "/Screenshot 2024-08-02 at 22.49.06.png",
+      "description": "Ecommerce Website",
+      "icon": "fas fa-shopping-cart",
+      "website": "https://lambent-pie-cdd698.netlify.app/"
+    },
+    {
+      "id": "2",
+      "image": "/Screenshot 2024-09-04 at 22.05.06.png",
+      "description": "Gym Website",
+      "icon": "fas fa-dumbbell",
+      "website": "https://eclectic-sprite-22617b.netlify.app/"
+    },
+    {
+      "id": "3",
+      "image": "/recycling.jpg",
+      "description": "Recycling Website",
+      "icon": "fas fa-recycle"
+    }
+  ]
+}

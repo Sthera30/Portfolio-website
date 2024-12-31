@@ -1,0 +1,13 @@
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 0.1rem solid #fff;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer-sub {
+  padding: 1rem 5%;
+  color: #fff;
+}

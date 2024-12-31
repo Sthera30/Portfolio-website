@@ -1,0 +1,137 @@
+.contact {
+  background: linear-gradient(65deg, lime, skyblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 1.3rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 5rem;
+}
+
+.contact-container .contact-info {
+  flex: 1 1 30rem;
+  max-width: 25rem;
+}
+
+.contact-container .contact-info p i {
+  margin-right: 1rem;
+  color: hsl(197, 88%, 45%);
+}
+
+.contact-container form {
+  flex: 1 1 30rem;
+  max-width: 30rem;
+}
+
+.contact-container .contact-info h3 {
+  color: #fff;
+}
+
+.contact-container .contact-info h3 i {
+  color: orange;
+  margin-left: 0.5rem;
+}
+
+.contact-container .contact-info p {
+  color: #fff;
+}
+
+.contact-container form label {
+  color: #fff;
+}
+
+.contact-container form input {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.contact-container form textarea {
+  width: 100%;
+  margin: 0.5rem 0rem;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.btnSend {
+  color: #fff;
+  background: linear-gradient(65deg, rgb(67, 183, 230), hsl(197, 96%, 29%));
+  padding: 1rem 1.2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  margin-bottom: 1.2rem;
+  font-weight: 800;
+}
+
+.contact-container span {
+  display: block;
+  color: #fff;
+}
+
+.contact-burner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(65deg, hsl(197, 76%, 27%), hsl(195, 89%, 61%));
+  height: 20rem;
+  margin-bottom: 6rem;
+}
+
+
+.contact-burners{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(65deg, hsl(197, 76%, 27%), hsl(195, 89%, 61%));
+  height: 20rem;
+}
+
+.contact-burners .burner-inner h1{
+  color: #fff;
+  font-size: 2.5rem;
+  margin-top: 8rem;
+}
+
+
+.contact-burners .burner-inners h1{
+  color: #fff;
+  font-size: 2.5rem;
+  margin-top: 8rem;
+}
+
+
+.burner-innerss h1{
+  font-size: 2.5rem;
+  margin-top: 8rem;
+  text-align: center;
+  padding-top: 10rem;
+
+}
+
+
+
+.contact .burner-inner h1 {
+
+  text-align: center;
+
+}
+
+.contact-burner .burner-inner{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.contact-burner .burner-inner h1{
+  color: #fff;
+  font-size: 2.5rem;
+}
