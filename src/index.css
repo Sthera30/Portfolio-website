@@ -60,7 +60,7 @@ html {
     margin-top: 3rem !important;
   }
 
-  .burner-inner h1{
+  .burner-inner h1 {
     padding-top: 8rem;
   }
 
@@ -175,6 +175,10 @@ html {
   .hide {
     clip-path: polygon(0 0, 100% 0%, 100% 0%, 0% 0%);
   }
+
+  .bars {
+    display: block !important;
+  }
 }
 
 @media (max-width: 763px) {
@@ -200,17 +204,30 @@ html {
 }
 
 
+@media (max-width: 748px) {
+  
+  .project-container .project-box:nth-child(2) {
+
+    margin-top: 55rem;
+    margin-bottom: 10rem;
+
+  }
+
+}
+
+
+@media (max-width: 670px) {
+  
+  
+  .review-container {
+    height: 35rem !important;
+  }
+
+}
+
+
 @media (max-width: 633px) {
 
-  .project-container .project-box:nth-child(2) {
-    margin-top: 46rem;
-
-  }
-
-  .project-container .project-box:nth-child(3) {
-    margin-top: 35rem;
-
-  }
 
 }
 
@@ -235,15 +252,12 @@ html {
 
 }
 
-@media (max-width: 573px) {
-
-  .project-container .project-box:nth-child(3) {
-    margin-top: 38rem;
-
-  }
+@media (max-width: 577px) {
 
   .project-container .project-box:nth-child(2) {
-    margin-top: 48rem;
+
+    margin-top: 55rem;
+    margin-bottom: 16rem;
 
   }
 
@@ -252,20 +266,12 @@ html {
 
 @media (max-width: 562px) {
 
-  .project-container .project-box:nth-child(3) {
-    margin-top: 40rem;
-
-  }
 
 }
 
 
 @media (max-width: 545px) {
 
-  .project-container .project-box:nth-child(3) {
-    margin-top: 42rem;
-
-  }
 
 }
 
@@ -282,24 +288,22 @@ html {
 }
 
 
-@media (max-width: 495px) {
+@media (max-width: 503px) {
+  
+  .project-container .project-box:nth-child(2) {
 
-  .project-heading h2 span {
-    font-size: 1rem
-  }
+    margin-top: 58rem;
+    margin-bottom: 22rem;
 
-  .project-heading h2 {
-    font-size: 1rem;
   }
 
 }
 
 
-@media (max-width: 471px) {
-
-  .project-container .project-box:nth-child(3) {
-    margin-top: 46rem;
-
+@media (max-width: 480px) {
+  
+  .review-container {
+    height: 40rem !important;
   }
 
 }
@@ -311,16 +315,6 @@ html {
     margin-top: -3rem;
   }
 
-}
-
-
-@media (max-width: 457px) {
-
-
-  .project-container .project-box:nth-child(2) {
-    margin-top: 50rem;
-
-  }
 
 }
 
@@ -335,17 +329,6 @@ html {
   }
 }
 
-
-
-@media (max-width: 453px) {
-
-  .project-container .project-box:nth-child(3) {
-
-    margin-top: 48rem;
-
-  }
-
-}
 
 
 @media (max-width: 451px) {
@@ -389,18 +372,6 @@ html {
     height: 20vh;
   }
 
-  .project-container .project-box:nth-child(3) {
-    margin-top: 39rem;
-  }
-
-}
-
-
-@media (max-width: 436px) {
-
-  .project-container .project-box:nth-child(3) {
-    margin-top: 43rem;
-  }
 
 }
 
@@ -413,11 +384,11 @@ html {
 
 @media (max-width: 404px) {
 
-  .burner-inner h1{
+  .burner-inner h1 {
     padding-top: 10rem;
     margin-top: -15rem !important;
   }
-  
+
 }
 
 
@@ -426,15 +397,6 @@ html {
   .burner-inner h1 {
     margin-top: 2rem;
   }
-
-}
-
-@media (max-width: 388px) {
-
-  
-.review-container{
-  height: 35rem !important;
-}
 
 }
 
@@ -448,36 +410,21 @@ html {
 
 }
 
-@media (max-width: 377px) {
 
-  .project-container .project-box:nth-child(3) {
-    margin-top: 45rem;
-  }
-
-}
-
-@media (max-width: 362px) {
-
-  .project-container .project-box:nth-child(3) {
-    margin-top: 47rem;
-  }
-
-  .project-container .project-box:nth-child(2) {
-    margin-top: 51rem;
-
-  }
-
+@media (max-width: 355px) {
+  
+  
 }
 
 
 @media (max-width: 352px) {
+  
+  .project-container .project-box:nth-child(3) img {
 
-
-  .project-container .project-box:nth-child(2) {
-    margin-top: 54rem;
-    margin-bottom: 1rem;
+    margin-top: 1.7rem;
 
   }
+
 
 }
 
@@ -491,9 +438,6 @@ html {
 
 
 @media (max-width: 346px) {
-  .project-container .project-box:nth-child(3) {
-    margin-top: 49rem;
-  }
 }
 
 
@@ -503,17 +447,9 @@ html {
     font-size: 1.8rem;
   }
 
-  .project-container .project-box:nth-child(3) {
-    margin-top: 51rem;
-  }
 
-}
-
-@media (max-width:338px) {
-
-
-  .project-heading h2 span {
-    padding: .6rem 1rem;
+  .project-container .project-box:nth-child(3) .content{
+    margin-bottom: 80rem;
   }
 
 }
@@ -555,12 +491,12 @@ html {
 }
 
 @media (max-width: 325px) {
-  
+
   .project-heading h2 span {
     font-size: 1rem;
   }
 
-  .project-heading h2{
+  .project-heading h2 {
     font-size: 1.2rem;
     line-height: 1.4;
   }
@@ -595,7 +531,7 @@ html {
     padding: .6rem .7rem;
   }
 
-  .project-heading h2{
+  .project-heading h2 {
     font-size: 1.3rem;
   }
 

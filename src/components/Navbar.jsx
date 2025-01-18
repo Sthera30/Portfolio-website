@@ -20,8 +20,8 @@ function Navbar() {
         <NavLink to={"/projects"}>Projects</NavLink>
         <NavLink to={"/contact"}>Contact</NavLink>
       </div>
-      <FaBars
-        className="fas fa-bars"
+      <FaBars style={{color: '#fff', display: 'none'}}
+        className="bars"
         onClick={() => setShowNav((prevNav) => !prevNav)}
       ></FaBars>
     </div>

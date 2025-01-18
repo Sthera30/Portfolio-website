@@ -145,7 +145,8 @@
 
 .projects-burner-{
   background: hsl(0, 0%, 15%);
-  padding: 1.5rem;
+  padding: 2.5rem;
+  padding-bottom: 15rem;
 }
 
 .burner-inner p{

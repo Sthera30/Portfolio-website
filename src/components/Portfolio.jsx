@@ -92,8 +92,7 @@ function Portfolio() {
         <div className="project-box">
 
 
-
-          <a href="https://fullstack-kwanosportsclub-app-frontend.onrender.com">
+          <a href="https://kwanosportsclub.co.za">
 
             <img src={Img2} alt="" />
 
@@ -114,7 +113,7 @@ function Portfolio() {
           <div className="content">
 
             <h2>Full-Stack Tennis Club Website</h2>
-            <p>A full-stack application designed for clients aiming to secure funding for building tennis courts and facilitate donations of tennis equipment like rackets and balls. Built with React.js, HTML, CSS, and JavaScript on the frontend, and Node.js with MongoDB on the backend, the platform offers a user-friendly interface to connect supporters with the cause.</p>
+            <p>A full-stack application designed for clients aiming to secure funding for building tennis courts and facilitate donations of tennis equipment like rackets and balls. The site is also used to attract potential players online. Built with React.js on the frontend, and Node.js with MySql on the backend. The platform offers a user-friendly interface to connect supporters with the cause.</p>
 
             <h5>Technologies:</h5>
             <h5>Frontend:</h5>
@@ -124,7 +123,7 @@ function Portfolio() {
             <p>- Node.js</p>
             <p>- Express.js</p>
             <p>- JWT for authentication</p>
-            <p>- MongoDB</p>
+            <p>- MySql</p>
             <h5>Security Features:</h5>
             <p>- Protected API endpoints</p>
             <p>- Token-based authentication</p>
@@ -190,7 +189,7 @@ function Portfolio() {
         <div className="project-box">
 
 
-          <a href="https://fullstack-ordering-food-frontend-app.onrender.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://fullstack-ordering-food-app-frontend.vercel.app" target="_blank" rel="noopener noreferrer">
 
             <img src={Img1} alt="" />
 
@@ -231,7 +230,7 @@ function Portfolio() {
         <div className="project-box">
 
 
-          <a href="https://mern-food-ordering-fullstack-app.onrender.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://prodigy-fs-02-frontend-tau.vercel.app" target="_blank" rel="noopener noreferrer">
 
             <img src={Img3} alt="" />
 
@@ -257,7 +256,7 @@ function Portfolio() {
         <div className="project-box">
 
 
-          <a href="https://prodigy-fs-01-frontendd-secure-user-auth.onrender.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://prodigy-fs-01-frontend.vercel.app" target="_blank" rel="noopener noreferrer">
 
             <img src={Img4} alt="" />
 
