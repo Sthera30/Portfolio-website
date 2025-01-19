@@ -97,8 +97,8 @@ function About() {
           <div className="about-content">
             <h1>{about[0]?.title}</h1>
             <p>{about[0]?.aboutDescription}</p>
-            <a href="#" className="btnPortfolio">
-              Download Resume
+            <a href="/MyResume.pdf" download={"MyResume.pdf"} className="btnPortfolio">
+              Download Resumes
             </a>
           </div>
         </div>
